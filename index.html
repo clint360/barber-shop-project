@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <section id="banner">
+<img src="images/logo.png" class="logo">
+<div class="banner-text">
+    <h1>Hair Studio</h1>
+    <p>Styling your hair is styling your life!</p>
+    <div class="banner-btn">
+        <a href="#feature"><span></span>Find Out</a>
+        <a href="#service"><span></span>Read More</a>
+    </div>
+   </div>
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#service">SERVICE</a></li>
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
+            <li><a href="#footer">MEET US</a></li>
+
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        menuBtn.onclick = function(){
+            sideNav.style.right="-250"
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src="images/close.png";
+            }
+            else{
+            sideNav.style.right = "-250px";
+            menu.src="images/menu.png";
+            } 
+        }
+       </script>
+</div>
+<section id="feature">
+<div class="title-text">
+    <p>FEATURES</p>
+    <h1>Why choose us?</h1>
+</div>
+<div class="feature-box">
+     <div class="features">
+         <h1>Experienced Staff</h1>
+         <div class="features-desc">
+             <div class="features-icon"></div>
+             <div class="features-text">
+                 <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+             </div>
+         </div>
+         <br>
+         <br>
+         <div class="features">
+            <h1>Pre Booking Online</h1>
+            <div class="features-desc">
+                <div class="features-icon"></div>
+                <div class="features-text">
+                    <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="features">
+                <h1>Affordable Costs</h1>
+                <div class="features-desc">
+                    <div class="features-icon"></div>
+                    <div class="features-text">
+                        <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+                    </div>
+                </div>
+     </div>
+     </div>
+</div>
+<div class="feature-box">
+        <div class="features-img">
+                <img src="images/barber-man.jpg" alt="">
+</div>
+</section>
+<!--Service-->
+<section id="service">
+    <div class="title-text">
+        <p>SERVICES</p>
+        <h1>We Are The Best!</h1>
+    </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="images/pic-1.jpg" alt="">
+            <div class="overlay">
+                    <div class="service-desc">
+                            <h3>Hair Styling</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation, 
+                                this is test under description of barber foundation
+                            </p>
+                        </div>
+
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="overlay">
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>This is test under description of barber foundation, 
+                        this is test under description of barber foundation
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/pic-3.jpg" alt="">
+            <div class="overlay">
+                    <div class="service-desc">
+                            <h3>Beard Trimming</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation, 
+                                this is test under description of barber foundation
+                            </p>
+                        </div>
+                
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/pic-4.jpg" alt="">
+            <div class="overlay">
+                    <div class="service-desc">
+                            <h3>Shampoo Application</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation, 
+                                this is test under description of barber foundation
+                            </p>
+                        </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="testimonials">
+        <div class="title-text">
+                <p>TESTIMONIALS</p>
+                <h1>Voice Of The Client</h1>
+            </div>
+            <div class="testimonial-row">
+                <div class="test-col">
+                        <div class="user">
+                                <img src="images/img-1.jpg" alt="">
+                                <div class="user-info">
+                                    <h4>KEN NORMAN<i class="fa fa-twitter"></i></h4>
+                                    <small>@kennorman</small>
+                                </div>
+                            </div>
+                    <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+                </div>
+                <div class="test-col">
+                        <div class="user">
+                                <img src="images/img-2.jpg" alt="">
+                                <div class="user-info">
+                                    <h4>KAIRA<i class="fa fa-twitter"></i></h4>
+                                    <small>@kairralyne</small>
+                                </div>
+                            </div>
+                    <p>Donec eget dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+                </div>
+                <div class="test-col">
+                        <div class="user">
+                                <img src="images/img-3.jpg" alt="">
+                                <div class="user-info">
+                                    <h4>VINNY KANE<i class="fa fa-twitter"></i></h4>
+                                    <small>@vinnyl360</small>
+                                </div>
+                            </div>
+                    <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+                </div>
+                <div class="test-col">
+                    <div class="user">
+                            <img src="images/footer-img.png" alt="">
+                            <div class="user-info">
+                                <h4>CLINT BEATZBOY<i class="fa fa-twitter"></i></h4>
+                                <small>@clint360</small>
+                            </div>
+                        </div>
+                <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+            </div>
+            <div class="test-col">
+                    <div class="user">
+                            <img src="images/pic-2.jpg" alt="">
+                            <div class="user-info">
+                                <h4>KAdesh<i class="fa fa-twitter"></i></h4>
+                                <small><a href="twitter.com/kadkid">@kadkid</a></small>
+                            </div>
+                        </div>
+                <p>Donec eget dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+            </div>
+            <div class="test-col">
+                    <div class="user">
+                            <img src="images/pic-1.jpg" alt="" height="50%" width="50%">
+                            <div class="user-info">
+                                <h4>BILLS FLYNN<i class="fa fa-twitter"></i></h4>
+                                <small>@bills32_12</small>
+                            </div>
+                        </div>
+                <p>Donec eget pillus raju ellopsum rupsum jusopm, irexs dasus icnus papirus sacadabada inus pillus abulus kinus aquirus inobitus availion</p>
+            </div>
+
+            </div>
+
+</section>
+<section id="footer">
+    <img src="images/footer-img.png" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit Shop Today!</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p>Mondays to Fridays - 9AM to 9PM</p>
+            <p>Saturdays and Sundays - 8AM to 11PM</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get in Touch!</h1>
+            <p>Obili, Yaounde, Cameroon</p>
+            <p>example@gmail.com</p>
+            <p>+237680612360</p>
+        </div>
+    </div>
+</section>
+<hr color="blue">
+&lt&lt&lt Copyright Clint Beatzboy 2022 &gt&gt&gt;
+</body>
+</html>
